@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+<meta http-equiv="content-type" content= "text/html; yourcharset">
+
+  <link rel="stylesheet" type="text/css" href="table.css">
+    <title>Рассадка гостей</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <td></td>
+        <td data-seat="0" class="seat"></td>
+        <td data-seat="1" class="seat"></td>
+        <td data-seat="2" class="seat"></td>
+        <td data-seat="3" class="seat"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td data-seat="9" class="seat"></td>
+        <td colspan="4" id="table"></td>
+        <td data-seat="4" class="seat"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td data-seat="8" class="seat"></td>
+        <td data-seat="7" class="seat"></td>
+        <td data-seat="6" class="seat"></td>
+        <td data-seat="5" class="seat"></td>
+        <td></td>
+      </tr>
+    </table>
+    <ol id="list"></ol>
+  </body>
+<script src="table.js"></script>
+</html>
